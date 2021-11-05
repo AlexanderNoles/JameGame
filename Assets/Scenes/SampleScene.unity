@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 50357572}
   - component: {fileID: 50357571}
   m_Layer: 0
-  m_Name: blank
+  m_Name: TempCoolantBacking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -299,8 +299,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1009450965}
   - component: {fileID: 1009450966}
+  - component: {fileID: 1009450967}
   m_Layer: 0
-  m_Name: Room_2
+  m_Name: Engine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,6 +373,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1009450967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009450964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9097dabdcadf96f43a5d10cfb5555c70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  relativePassPoint: -0.52
+  player: {fileID: 0}
 --- !u!1 &1081510060
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +399,7 @@ GameObject:
   - component: {fileID: 1081510062}
   - component: {fileID: 1081510063}
   m_Layer: 0
-  m_Name: Room_1
+  m_Name: CoolantPump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -567,12 +582,12 @@ GameObject:
   - component: {fileID: 1700531335}
   - component: {fileID: 1700531336}
   m_Layer: 0
-  m_Name: Room_3
+  m_Name: Possible Task Locations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1700531335
 Transform:
   m_ObjectHideFlags: 0
@@ -650,7 +665,7 @@ GameObject:
   - component: {fileID: 2143872500}
   - component: {fileID: 2143872499}
   m_Layer: 0
-  m_Name: blank (1)
+  m_Name: Ocean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
