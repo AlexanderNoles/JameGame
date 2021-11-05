@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -4726841367925293375
     second: Room_5
+  - first:
+      213: -8593993773648720178
+    second: Room_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -201,7 +204,7 @@ TextureImporter:
         width: 54
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,7 +225,7 @@ TextureImporter:
         width: 54
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,6 +233,27 @@ TextureImporter:
       bones: []
       spriteID: 1cef03bd1d2e66eb0800000000000000
       internalID: -4726841367925293375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room_6
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 500
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ececfbf12300cb880800000000000000
+      internalID: -8593993773648720178
       vertices: []
       indices: 
       edges: []
