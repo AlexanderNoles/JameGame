@@ -29,7 +29,7 @@ public class InfrontOrBehind : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawLine(new Vector3(transform.position.x - 100, transform.position.y + relativePassPoint, 0), 
-            new Vector3(transform.position.x + 100, transform.position.y + relativePassPoint, 0));
+        Gizmos.DrawLine(new Vector3(transform.position.x - 5, transform.position.y + relativePassPoint, 0), 
+            new Vector3(transform.position.x + 5, transform.position.y + relativePassPoint, 0));
     }
 }
