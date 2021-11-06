@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: -8593993773648720178
     second: Room_6
+  - first:
+      213: 8715371496779132213
+    second: Room_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -254,6 +257,27 @@ TextureImporter:
       bones: []
       spriteID: ececfbf12300cb880800000000000000
       internalID: -8593993773648720178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room_7
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 460
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53da517433833f870800000000000000
+      internalID: 8715371496779132213
       vertices: []
       indices: 
       edges: []
