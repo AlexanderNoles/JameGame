@@ -9,7 +9,8 @@ public class PlayerManagment : MonoBehaviour
         Spanner,
         Screwdriver,
         Mop,
-        Hammer
+        Hammer,
+        Bucket
     }
     public static ToolTypes currentTool;
 }

@@ -5,31 +5,18 @@ using UnityEngine;
 public class ToolboxControl : MonoBehaviour
 {
     public static bool toolboxBeingInteractedWith;  //This is made static so that it can be accessed in the player movement script
-    public GameObject interactPrompt;
+    //public GameObject interactPrompt;
     public GameObject toolMenu;
-    private bool inRange;
+    private InteractControl ic;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void Start()
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            inRange = true;
-            interactPrompt.SetActive(true);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            inRange = false;
-            interactPrompt.SetActive(false);
-        }
+        ic = GetComponent<InteractControl>();
     }
 
     private void Update()
     {
-        if(inRange && Input.GetKeyDown(KeyCode.E) && !toolboxBeingInteractedWith)
+        if(ic.inRange && Input.GetKeyDown(KeyCode.E) && !toolboxBeingInteractedWith)
         {
             //Interacted With
             OpenMenu();
@@ -43,14 +30,14 @@ public class ToolboxControl : MonoBehaviour
     public void CloseMenu()
     {
         toolboxBeingInteractedWith = false;
-        interactPrompt.SetActive(true);
+        ic.interactPrompt.SetActive(true);
         toolMenu.SetActive(false);
     }
 
     public void OpenMenu()
     {
         toolboxBeingInteractedWith = true;
-        interactPrompt.SetActive(false);
+        ic.interactPrompt.SetActive(false);
         toolMenu.SetActive(true);
     }
 
