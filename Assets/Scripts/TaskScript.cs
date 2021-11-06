@@ -6,7 +6,7 @@ public class TaskScript : MonoBehaviour
 {
     private InteractControl ic;
     public TaskControl.PossibleTasks task;
-    public GameObject taskObject;
+    public GameObject taskObject;   //This should control the specific task through "OnEnable" and "OnDisable"
 
     private void Start()
     {
