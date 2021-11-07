@@ -5,7 +5,7 @@ using UnityEngine;
 public class TaskControl : MonoBehaviour
 {
     public float timeBetweenTask = 10f;
-    private float timeLeft;
+    public float timeLeft;
     public enum PossibleTasks
     {
         Tighten,
@@ -32,6 +32,7 @@ public class TaskControl : MonoBehaviour
                 if (!currentTasks.Contains(newTask))
                 {
                     currentTasks.Add(newTask);
+                    Debug.Log(newTask);
                     break;
                 }
             }

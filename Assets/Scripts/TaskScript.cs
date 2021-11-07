@@ -18,7 +18,7 @@ public class TaskScript : MonoBehaviour
 
     private void Update()
     {
-        ic._enabled = TaskControl.currentTasks.Contains(TaskControl.PossibleTasks.VentSteam);
+        ic._enabled = TaskControl.currentTasks.Contains(task);
         icon.SetActive(ic._enabled);
         if(ic.inRange && Input.GetKeyDown(KeyCode.E))
         {
