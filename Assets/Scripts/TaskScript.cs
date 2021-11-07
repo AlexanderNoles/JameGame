@@ -11,7 +11,7 @@ public class TaskScript : MonoBehaviour
     private void Start()
     {
         ic = GetComponent<InteractControl>();
-        taskObject.SetActive(false);
+        //taskObject.SetActive(false);
     }
 
     private void Update()
