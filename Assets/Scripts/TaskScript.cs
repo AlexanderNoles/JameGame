@@ -22,7 +22,7 @@ public class TaskScript : MonoBehaviour
         icon.SetActive(ic._enabled);
         if(ic.inRange && Input.GetKeyDown(KeyCode.E))
         {
-            taskObject.SetActive(true);
+            taskObject.SetActive(!taskObject.activeSelf);
         }
     }
 

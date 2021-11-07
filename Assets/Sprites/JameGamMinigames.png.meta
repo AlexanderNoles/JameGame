@@ -44,6 +44,9 @@ TextureImporter:
   - first:
       213: 7783082167476855743
     second: JameGamMinigames_19
+  - first:
+      213: 3494818519705270746
+    second: JameGamMinigames_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -540,7 +543,7 @@ TextureImporter:
         width: 5
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -548,6 +551,27 @@ TextureImporter:
       bones: []
       spriteID: fb3a22aaeff030c60800000000000000
       internalID: 7783082167476855743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JameGamMinigames_20
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 847
+        width: 63
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad93d756de6108030800000000000000
+      internalID: 3494818519705270746
       vertices: []
       indices: 
       edges: []
