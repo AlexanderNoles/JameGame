@@ -12,6 +12,7 @@ public class InteractControl : MonoBehaviour
 
     private void Start()
     {
+        _collider = GetComponent<BoxCollider2D>();
         _collider.enabled = false;
     }
 

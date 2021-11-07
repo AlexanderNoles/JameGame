@@ -32,7 +32,6 @@ public class TaskControl : MonoBehaviour
                 if (!currentTasks.Contains(newTask))
                 {
                     currentTasks.Add(newTask);
-                    Debug.Log(newTask);
                     break;
                 }
             }
