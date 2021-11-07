@@ -4528,7 +4528,6 @@ Canvas:
   m_SortingLayerID: -228076783
   m_SortingOrder: 101
   m_TargetDisplay: 0
-<<<<<<< HEAD
 --- !u!1 &1768790860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4632,9 +4631,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 1768790860}
   m_CullTransparentMesh: 1
 --- !u!1 &1977879043
-=======
---- !u!1 &2075994543
->>>>>>> 4b98a5e1e4ca5f1705a369e1bc53c53ef292958e
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4724,7 +4720,6 @@ Canvas:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075994543}
   m_Enabled: 1
-<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c01d28eff28b441479faf49f956c53e1, type: 3}
   m_Name: 
@@ -4807,21 +4802,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986594047}
   m_CullTransparentMesh: 1
-=======
-  serializedVersion: 3
-  m_RenderMode: 1
-  m_Camera: {fileID: 519420031}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
->>>>>>> 4b98a5e1e4ca5f1705a369e1bc53c53ef292958e
 --- !u!1 &2143872498
 GameObject:
   m_ObjectHideFlags: 0
