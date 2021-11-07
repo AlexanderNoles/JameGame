@@ -8,6 +8,12 @@ public class InteractControl : MonoBehaviour
     [HideInInspector]
     public bool inRange;
     public bool _enabled = true;
+    private BoxCollider2D _collider;
+
+    private void Start()
+    {
+        _collider.enabled = false;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -34,5 +40,6 @@ public class InteractControl : MonoBehaviour
             inRange = false;
             interactPrompt.SetActive(false);
         }
+        _collider.enabled = _enabled;
     }
 }

@@ -22,6 +22,10 @@ public class CoolantTask : MonoBehaviour
         {
             coolant.rectTransform.localPosition = Vector3.Lerp(coolant.rectTransform.localPosition, new Vector3(525, 300), Time.deltaTime * 5);
             TaskControl.currentTasks.Remove(TaskControl.PossibleTasks.Coolant);
+            if(coolant.rectTransform.localPosition.y > 290)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 }
